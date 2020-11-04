@@ -1,6 +1,6 @@
 from itertools import product
 
-colors = ["Red", "Blue", "Green", "Yellow", ""]
+colors = ["Red", "Blue", "Green", "Yellow"]
 states = ["SA", "WA", "NT", "Q", "NSW", "V", "T"]
 neighbors = {}
 neighbors["WA"] = ["NT", "SA"]
